@@ -1,6 +1,6 @@
 import socket
-
+import sys
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-s.connect(('127.0.0.1',4545))
+port = int(sys.argv[1])
+s.connect(('127.0.0.1',port))
 s.send("hi".encode())
