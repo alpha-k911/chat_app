@@ -1,0 +1,5 @@
+Keep the structure neater and keep the test codes local.
+Don't upload them to the main repository.
+
+Use this as a Cleaner Structure to Make the code
+
